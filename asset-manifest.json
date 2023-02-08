@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/-%20http://HossamMahmoudkhedr.github.io/Architecture-Engineer-Portfolio-Website/static/css/main.5095a24b.css",
+    "main.js": "/-%20http://HossamMahmoudkhedr.github.io/Architecture-Engineer-Portfolio-Website/static/js/main.d466028c.js",
+    "index.html": "/-%20http://HossamMahmoudkhedr.github.io/Architecture-Engineer-Portfolio-Website/index.html",
+    "main.5095a24b.css.map": "/-%20http://HossamMahmoudkhedr.github.io/Architecture-Engineer-Portfolio-Website/static/css/main.5095a24b.css.map",
+    "main.d466028c.js.map": "/-%20http://HossamMahmoudkhedr.github.io/Architecture-Engineer-Portfolio-Website/static/js/main.d466028c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5095a24b.css",
+    "static/js/main.d466028c.js"
+  ]
+}
