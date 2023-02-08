@@ -1,3 +1,68 @@
+# Architecture Engineer Website Portfolio
+
+This is a portfolio website for architecture engineer called Nourhan shaker
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+What is it about?
+
+- The main goal of the website to show all the skills and projects and personal information of the architecture engineer
+- The users can view the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+![](./src/Assets/Images/Screenshot.png)
+
+### Links
+
+- Live Site URL:
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+### Continued development
+
+I want to concern more on projects details in the future and add more sections in the main page. Also, I want to read more about framer-motion library in react to creat more creative websites with great animations.
+
+### Useful resources
+
+- [Animation | Framer for Developers](https://www.framer.com/motion/animation/) - This website helped me to know more about framer-motion library and how to make animations in the page
+
+## Author
+
+- Website - [Hossam Mahmoud](https://github.com/HossamMahmoudkhedr)
+- LinkedIn - [Hossam Mahmoud](https://www.linkedin.com/in/hossam-mahmoud/)
+- Twitter - [@HossamKhedr01](https://twitter.com/HossamKhedr01)
+
+## Acknowledgments
+
+Thanks for [Eng. Nourhan Shakir]() for working with me and giving me this great opportunity
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
