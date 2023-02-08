@@ -5,7 +5,7 @@ This is a portfolio website for architecture engineer called Nourhan shaker
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [What is it about?](#What-is-it-about?)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -18,7 +18,7 @@ This is a portfolio website for architecture engineer called Nourhan shaker
 
 ## Overview
 
-What is it about?
+### What is it about?
 
 - The main goal of the website to show all the skills and projects and personal information of the architecture engineer
 - The users can view the optimal layout for the interface depending on their device's screen size
@@ -30,7 +30,7 @@ What is it about?
 
 ### Links
 
-- Live Site URL:
+- Live Site URL: https://hossammahmoudkhedr.github.io/Architecture-Engineer-Portfolio-Website/
 
 ## My process
 
@@ -59,7 +59,7 @@ I want to concern more on projects details in the future and add more sections i
 
 ## Acknowledgments
 
-Thanks for [Eng. Nourhan Shakir]() for working with me and giving me this great opportunity
+Thanks for [Eng. Nourhan Shakir](https://hossammahmoudkhedr.github.io/Architecture-Engineer-Portfolio-Website/) for working with me and giving me this great opportunity
 
 ---
 
