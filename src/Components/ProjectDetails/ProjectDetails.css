@@ -164,7 +164,12 @@
 }
 
 @media (max-width: 843px) {
-  .projectData .top {
+  .projectData .top h2 {
+    font-size: 1.8rem;
+    left: 36px;
+  }
+
+  /* .projectData .top {
     align-items: center;
     height: unset;
     flex-direction: column-reverse;
@@ -176,7 +181,7 @@
   .projectData .top .right {
     height: 61vh;
     width: unset;
-  }
+  } */
   .projectData .pad {
     padding: 0 1rem;
   }
