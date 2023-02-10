@@ -15,7 +15,7 @@ const Projects = () => {
                       whileHover={{transform: 'translateY(0px) scale(1.02)'}}
                       transition={{...transition}}
                       className={`project ${project.margin ? 'marg' : ''}`} key={project.id} data-id={project.name}>
-                      <img className={`${project.name === 'Exhibition Hall' ? 'bright' : ""}`} src={project.shot1} alt="" />
+                      <img className={`${project.name === 'Exhibition Hall' ? 'bright' : ""}`} src={project.shot1} alt={project.name} />
                       <div className={`back ${project.name ==='Pavilion For Future Science' ? 'moveLeft': '' }`}></div>
                       <div className={`details ${project.name ==='Pavilion For Future Science' ? 'moveLeft': '' }`}>
                           <h3 className='name'>{project.name}</h3>

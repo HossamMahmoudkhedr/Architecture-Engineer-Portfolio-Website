@@ -82,8 +82,11 @@
   left: 31%;
 }
 @media (max-width: 390px) {
+  .project .details {
+    left: 32%;
+  }
   .project .details .name {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   .back.moveLeft,
   .details.moveLeft {
