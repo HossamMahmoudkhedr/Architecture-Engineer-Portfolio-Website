@@ -26,6 +26,11 @@ export const exdata = [
         date: 'AUG 2022 - SEP 2022'
     },
     {
+        experience: 'Dewan Award for Architecture',
+        sub:'Honourable Mentions: Certificate and invitation to attend the annual ceremony',
+        date: 'AUG 2022 - SEP 2022'
+    },
+    {
         experience: 'Azbakia Kiosks Competition',
         sub:'Honourable Mentions: Certificate',
         date: 'JUL 2022 - AUG 2022'
@@ -33,11 +38,6 @@ export const exdata = [
     {
         experience: 'Ezbet Hegazy Development Proposal',
         date: 'SEP 2022 - OCT 2022'
-    },
-    {
-        experience: 'Dewan Award for Architecture',
-        sub:'Honourable Mentions: Certificate and invitation to attend the annual ceremony',
-        date: 'AUG 2022 - SEP 2022'
     },
     {
         experience: 'Othman Ahmed Othman',
