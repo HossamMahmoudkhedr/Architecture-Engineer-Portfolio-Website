@@ -63,8 +63,8 @@ ul li {
   }
 }
 
-@media (min-width: 993px) and (max-width: 1024px) {
+@media (min-width: 800px) and (max-width: 1280px) {
   .pad {
-    padding: 0 90px;
+    padding: 0 45px;
   }
 }

@@ -1,11 +1,15 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Home.css'
 import { FiMenu } from 'react-icons/fi'
 import { motion } from 'framer-motion'
 const Home = () => {
     const [opened, setopened] = useState(false)
     const [status, setStatus] = useState('')
-
+    const [date, setDate] = useState()
+    useEffect(() => {
+        let year = new Date();
+        setDate(year.getFullYear())
+    },[])
     const show = () => {
         if (!opened) {
             setStatus('active');
@@ -38,7 +42,7 @@ const Home = () => {
                         <p>Architecture Engineer</p>
                     </div>
                     <div className="info">
-                        Hello, my name is Nourhan Shakir. I am 22 years old. Studies at architecture department
+                        Hello, my name is Nourhan Shakir. I am {date - 2000} years old. Studies at architecture department
                         Alexandria university
                     </div>
                     <motion.div
