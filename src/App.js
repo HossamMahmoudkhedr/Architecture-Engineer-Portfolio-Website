@@ -8,7 +8,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path='/Architecture-Engineer-Portfolio-Website' element={<FullPage />} />
-          <Route path='/Architecture-Engineer-Portfolio-Website/:name' element={<ProjectDetails />} />
+          <Route path='/Architecture-Engineer-Portfolio-Website/project/:name' element={<ProjectDetails />} />
         </Routes>
       </Router>
     </div>
