@@ -3,7 +3,7 @@ import './ProjectDetails.css'
 import { ProjectsData } from '../../ProjectsData'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom' 
-
+import { motion } from 'framer-motion'
 const ProjectDetails = () => {
   const { name } = useParams();
   const chosenProj = ProjectsData.find((project) => project.name === name)
@@ -21,12 +21,12 @@ const ProjectDetails = () => {
   return (
     <div className="projectData">
       <div className="top space">
-        <div className="left">
-          <h2>{chosenProj.name}</h2>
-        </div>
-        <div className="right">
+        <motion.h2
+          initial={{ transform: 'translateX(-50%)', opacity:0 }}
+          animate={{  transform: 'translateX(0%)',opacity:1}}
+          transition={{type:'spring', duration: 3}}
+        >{chosenProj.name}</motion.h2>
           <img src={chosenProj.shot1} alt={chosenProj.name} />
-        </div>
       </div>
       <div className="pad">
       <div className="explain space">
