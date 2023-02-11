@@ -67,20 +67,20 @@ const ProjectDetails = () => {
           <h2>How Is This Done?</h2>
           <div className="diagram">
             <div className="left">
-              <img src={chosenProj.layer1} alt="" />
+              <img src={chosenProj.layer1} alt={chosenProj.name} />
             </div>
             <div className="right">
-              <img src={chosenProj.layer2} alt="" />
+              <img src={chosenProj.layer2} alt={chosenProj.name} />
             </div>
           </div>
           <div className="plans">
             <h3>{chosenProj.FPlanName}</h3>
             <div className="topImage">
-              <img src={chosenProj.plan1} alt="" />
+              <img src={chosenProj.plan1} alt={chosenProj.FPlanName} />
             </div>
             <h3>{chosenProj.SPlanName}</h3>
             <div className="bottomImage">
-              <img src={chosenProj.plan2} alt="" />
+              <img src={chosenProj.plan2} alt={chosenProj.SPlanName} />
             </div>
           </div>
         </div>

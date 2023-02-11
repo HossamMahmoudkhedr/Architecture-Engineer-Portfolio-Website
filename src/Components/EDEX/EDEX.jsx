@@ -118,7 +118,7 @@ const EDEX = () => {
                 }
             </div>
             <motion.div
-                initial={{ opacity: 0.1 }}
+                initial={{ opacity: 0.3 }}
                 whileHover={{ opacity: 1 }}
                 transition={{ ...transition }}
                 onClick={showFullHeight}
