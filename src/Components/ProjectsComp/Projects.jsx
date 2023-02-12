@@ -10,7 +10,7 @@ const Projects = () => {
           {ProjectsData.map((project) => {
               return (
                   <motion.div
-                      initial={{ transform: 'translateY(70%)', opacity: 0 }}
+                      initial={{ transform: 'translateY(60%)', opacity: 0 }}
                       whileInView={{ transform: 'translateY(0%)', opacity: 1,filter: 'drop-shadow(2px 3px 22px rgb(69, 69, 69))' }}
                       whileHover={{transform: 'translateY(0px) scale(1.02)'}}
                       transition={{...transition}}

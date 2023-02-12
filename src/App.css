@@ -13,9 +13,17 @@ html {
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+a,
+span,
+.info {
   color: var(--green);
 }
-
 body {
   background-color: #d9d9d952;
 }

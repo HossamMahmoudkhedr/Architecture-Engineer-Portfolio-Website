@@ -4,6 +4,7 @@ import EDEX from '../EDEX/EDEX'
 import Heading from '../Heading/Heading'
 import Home from '../HomePage/Home'
 import Projects from '../ProjectsComp/Projects'
+import SR from '../SkillsAndResume/SR'
 const FWL = () => {
   return (
       <>
@@ -12,6 +13,8 @@ const FWL = () => {
     <EDEX />
       <Heading head='Projects' id="projects" />
       <Projects />
+      <Heading head='Skills & Resume' id='SR' />
+      <SR />
       <Footer />
       </>
   )

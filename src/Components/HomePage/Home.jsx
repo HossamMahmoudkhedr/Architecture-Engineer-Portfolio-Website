@@ -32,6 +32,7 @@ const Home = () => {
                     <li onClick={hide}><a href="#home">Home</a></li>
                     <li onClick={hide}><a href="#edex">Education & Experience</a></li>
                     <li onClick={hide}><a href="#projects">Project</a></li>
+                    <li onClick={hide}><a href="#SR">Skills & Resume</a></li>
                     <li onClick={hide}><a href="#contact">Contact Me</a></li>
                 </ul>
             </header>

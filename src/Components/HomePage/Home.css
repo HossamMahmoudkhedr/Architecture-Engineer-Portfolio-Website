@@ -3,7 +3,7 @@ header {
 }
 ul {
   display: flex;
-  gap: 12rem;
+  gap: 10rem;
   justify-content: center;
 }
 ul li a {
@@ -78,7 +78,7 @@ ul li a {
   animation-name: fill;
   animation-duration: 2s;
 }
-.left .text p {
+.home .left .text p {
   align-self: flex-end;
   font-size: 30px;
 }
@@ -237,10 +237,10 @@ ul li a {
     padding: 2rem 4rem 4.7rem;
   }
   ul {
-    gap: 7rem;
+    gap: 2.2rem;
   }
   ul li a {
-    font-size: 20px;
+    font-size: 18px;
   }
   .home .top {
     margin: 50px 45px 270px;
@@ -263,6 +263,9 @@ ul li a {
   .home .top {
     margin: 90px 30px 270px;
   }
+  ul {
+    gap: 5rem;
+  }
   .home::before {
     width: 656px;
     top: 190px;
@@ -283,7 +286,7 @@ ul li a {
 
 @media (min-width: 993px) and (max-width: 1024px) {
   ul {
-    gap: 8rem;
+    gap: 5rem;
   }
   ul li a {
     font-size: 18px;
