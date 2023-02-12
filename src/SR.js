@@ -1,13 +1,5 @@
 export const Skills = [
     {
-        name: '3D Max',
-        percent: 70
-    },
-    {
-        name: 'Sketch Up',
-        percent: 70
-    },
-    {
         name: 'Lumion',
         percent: 90
     },
@@ -16,15 +8,23 @@ export const Skills = [
         percent: 90
     },
     {
-        name: 'Revit',
-        percent: 80
-    },
-    {
         name: 'Enscape',
         percent: 90
     },
     {
+        name: 'Revit',
+        percent: 80
+    },
+    {
         name: 'Autocad',
         percent: 80
+    },
+    {
+        name: '3D Max',
+        percent: 70
+    },
+    {
+        name: 'Sketch Up',
+        percent: 70
     }
 ]
