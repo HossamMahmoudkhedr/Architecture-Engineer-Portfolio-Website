@@ -65,12 +65,12 @@ const ProjectDetails = () => {
         </div>
         <div className="how space">
           <h2>How Is This Done?</h2>
-          <div className="diagram">
+          <div className={`diagram ${chosenProj.name === 'Student Lodging'? 'align':''} ${chosenProj.name === 'Exhibition Hall' ? 'exHallAlign' : ''}`}>
             <div className="left">
               <img src={chosenProj.layer1} alt={chosenProj.name} />
             </div>
             <div className="right">
-              <img src={chosenProj.layer2} alt={chosenProj.name} />
+              <img className={chosenProj.name === 'Food Court' ? 'foodImg' : '' } src={chosenProj.layer2} alt={chosenProj.name} />
             </div>
           </div>
           <div className="plans">

@@ -120,7 +120,33 @@
   display: flex;
   justify-content: space-between;
 }
+.projectData .diagram.align {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: unset;
+}
 
+.projectData .diagram.align .left,
+.projectData .diagram.align .right {
+  width: 55%;
+}
+
+.projectData .diagram.exHallAlign {
+  justify-content: center;
+}
+
+.projectData .diagram.exHallAlign .right {
+  display: none;
+}
+.projectData .diagram.exHallAlign .left {
+  width: 50%;
+}
+
+.projectData .diagram .right .foodImg {
+  object-fit: contain;
+}
 .projectData .diagram .left,
 .projectData .diagram .right {
   width: 45%;
@@ -168,7 +194,10 @@
     font-size: 1.8rem;
     left: 36px;
   }
-
+  .projectData .diagram.align .left,
+  .projectData .diagram.align .right {
+    width: 100%;
+  }
   /* .projectData .top {
     align-items: center;
     height: unset;
