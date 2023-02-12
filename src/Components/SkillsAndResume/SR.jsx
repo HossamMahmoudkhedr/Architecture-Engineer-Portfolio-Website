@@ -35,7 +35,7 @@ const SR = () => {
           </div>
           <div className="right">
               <h3>If you find that interesting</h3>
-                    <a className='btn' href="../../Assets/Resume/20230212_134334_0000.png" download="20230212_134334_0000.png">Dwonload My Resume</a>
+                    <a className='btn' href="../../Assets/Resume/20230212_134334_0000.png" download="20230212_134334_0000.png">Download My Resume</a>
                     <motion.svg
                   initial={{ right: '-7rem', bottom:'-4rem' }}
                   whileInView={{ right: '9rem', bottom: '7rem' }}
