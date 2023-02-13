@@ -1,11 +1,8 @@
 .loading {
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 98.9vw;
   height: 100vh;
-  z-index: 9;
   background-color: #f2f2f2;
   transition: transform 0.3s linear;
 }
