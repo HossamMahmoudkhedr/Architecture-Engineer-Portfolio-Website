@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route exact path='/Architecture-Engineer-Portfolio-Website' element={<FullPage />} />
+          <Route exact path='/' element={<FullPage />} />
           <Route path='/Architecture-Engineer-Portfolio-Website/project/:name' element={<ProjectDetails />} />
         </Routes>
       </Router>
