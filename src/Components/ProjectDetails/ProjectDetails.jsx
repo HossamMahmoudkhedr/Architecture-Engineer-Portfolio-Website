@@ -84,6 +84,14 @@ const ProjectDetails = () => {
             </div>
           </div>
         </div>
+          <div className={`elevations ${chosenProj.elevations.length === 0 ? 'none': ''}`}>
+          <h2>Elevations</h2>
+        {chosenProj.elevations.map((el) => (
+          <div className="elev">
+            <img src={el.image} alt={chosenProj.name} />
+          </div>
+        ))}
+        </div>
       </div>
       <footer>
         <div className="content">
