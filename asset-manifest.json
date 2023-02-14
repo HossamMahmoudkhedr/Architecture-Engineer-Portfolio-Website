@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Architecture-Engineer-Portfolio-Website/static/css/main.cf357d77.css",
-    "main.js": "/Architecture-Engineer-Portfolio-Website/static/js/main.bfb51d07.js",
-    "index.html": "/Architecture-Engineer-Portfolio-Website/index.html",
-    "main.cf357d77.css.map": "/Architecture-Engineer-Portfolio-Website/static/css/main.cf357d77.css.map",
-    "main.bfb51d07.js.map": "/Architecture-Engineer-Portfolio-Website/static/js/main.bfb51d07.js.map"
+    "main.css": "/static/css/main.cf357d77.css",
+    "main.js": "/static/js/main.bfb51d07.js",
+    "index.html": "/index.html",
+    "main.cf357d77.css.map": "/static/css/main.cf357d77.css.map",
+    "main.bfb51d07.js.map": "/static/js/main.bfb51d07.js.map"
   },
   "entrypoints": [
     "static/css/main.cf357d77.css",
