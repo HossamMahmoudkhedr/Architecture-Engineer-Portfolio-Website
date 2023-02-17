@@ -61,6 +61,10 @@
 .sr .right h3 {
   font-size: 2.5rem;
 }
+
+.sr .right a {
+  cursor: pointer;
+}
 .sr .right .btn:hover {
   color: #bca89a;
   background-color: var(--dark-brown);

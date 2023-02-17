@@ -44,6 +44,7 @@ ul li {
   font-size: 20px;
   border-radius: 10px;
   border: 1px solid #bca89a;
+  cursor: pointer;
   transition: all 0.3s linear;
 }
 
