@@ -4,6 +4,7 @@ import { Skills } from '../../SR'
 import { buildStyles, CircularProgressbar } from 'react-circular-progressbar'
 import 'react-circular-progressbar/dist/styles.css';
 import { motion } from 'framer-motion';
+import Resume from '../../Assets/Resume/Resume.pdf'
 const SR = () => {
     
     return (
@@ -35,7 +36,9 @@ const SR = () => {
           </div>
           <div className="right">
               <h3>If you find that interesting</h3>
-                    <a className='btn' href="../../Assets/Resume/20230212_134334_0000.png" download="20230212_134334_0000.png">Download My Resume</a>
+              <a href={Resume} download="Resume" target='_blank'  rel='noreferrer'>
+                <button className='btn'>Download My Resume</button>
+              </a>
                     <motion.svg
                   initial={{ right: '-7rem', bottom:'-4rem' }}
                   whileInView={{ right: '9rem', bottom: '7rem' }}

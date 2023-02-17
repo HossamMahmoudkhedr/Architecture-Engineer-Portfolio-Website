@@ -26,5 +26,9 @@ export const Skills = [
     {
         name: 'Sketch Up',
         percent: 70
+    },
+    {
+        name: 'ArcGIS Pro',
+        percent: 70
     }
 ]
