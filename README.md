@@ -2,7 +2,7 @@
 
 This is a portfolio website for architecture engineer called Nourhan shaker.
 
-**NOTE**: You may find no images inside the website due to some issues. Currently, I am working on solving this problem and it will be solved soon.
+**NOTE: You may find no images inside the website due to some issues. Currently, I am working on solving this problem and it will be solved soon.**
 ## Table of contents
 
 - [Overview](#overview)
